@@ -1,0 +1,12 @@
+Create a web app whcih autogenerates subsequent pages via AI.
+In the app,  I can press the 'SPACE' on the keyboard (or tap a button on mobile)
+to record a sentence with a microphone.
+Then take this into a text prompt and feed it to Gemini to do 2 things:
+
+1. Create a vertical image on the right-side of the "slide".
+2. Create 3-4 bullet-point slides around this topic. This should be a credible slide on the topic.
+
+Use the 4 Google logo colors for the 4 lines, use bold and italic and emojis as needed.
+
+Add a common, configurable footer, like "Zack-slider 💛".
+
