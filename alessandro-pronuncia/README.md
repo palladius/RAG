@@ -53,7 +53,7 @@ Here are four markdown tables, one for each language, focusing on some common pr
 | :----------------- | :-------------------------------------------- | :------------------------ |
 | `au`, `eau`        | Like the English sound "**o**" in "g**o**"    | `chaud` (hot), `beau`     |
 | `oi`               | Like the English sound "**wa**" in "**wa**sh"  | `moi` (me), `voilà`       |
-| `ou`               | Like the English sound "**oo**" in "f**oo**d"  | `vous` (you), `jour` (day) |
+| `ou`               | Like the English sound "**oo**" in "f**oo**d"  | `vous` (you), `jour` (day), `ou` (where) |
 | `u`                | Say "**ee**" (like in "s**ee**") but round your lips tightly | `tu` (you), `rue` (street) |
 | `eu`, `œu`         | Say "**eh**" (like in "b**e**d") but round your lips | `neuf` (new), `coeur` (heart) |
 | `an`, `en`, `am`, `em` | Nasal sound, like "**ah**" but through the nose (don't close 'n'/'m') | `maman` (mom), `enfant`   |

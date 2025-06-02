@@ -1,0 +1,332 @@
+<!DOCTYPE html><html><head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////usr/local/google/home/ricc/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.18/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<p>Okay, this is a great way to help your son! Learning multiple languages at once is fantastic, but yes, the different ways letters combine and sound can be tricky.</p>
+<p>Here are four markdown tables, one for each language, focusing on some common pronunciation challenges for young learners. The phonetic descriptions are simplified approximations, often comparing to English sounds where possible, as precise phonetic symbols (IPA) might be too complex at this stage.</p>
+<p><strong>Tips for Practicing:</strong></p>
+<ul>
+<li>Say the sounds slowly and clearly yourself.</li>
+<li>Have him watch your mouth as you make the sounds.</li>
+<li>Use mirrors so he can see his own mouth position.</li>
+<li>Make it fun – turn it into a game!</li>
+<li>Listen to native speakers (songs, simple cartoons).</li>
+</ul>
+<hr>
+<h3 id="-german-pronunciation-help">🇩🇪 German Pronunciation Help </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">🇩🇪 Letter Combination</th>
+<th style="text-align:left">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Pronunciation (Approximate)</th>
+<th style="text-align:left">🇩🇪 Example(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>ei</code></td>
+<td style="text-align:left">Like the English word "<strong>eye</strong>"</td>
+<td style="text-align:left"><code>mein</code>, <code>Eis</code> (ice)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ie</code></td>
+<td style="text-align:left">Like the English sound "<strong>ee</strong>" in "s<strong>ee</strong>"</td>
+<td style="text-align:left"><code>sie</code>, <code>Liebe</code> (love)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>eu</code>, <code>äu</code></td>
+<td style="text-align:left">Like the English sound "<strong>oy</strong>" in "b<strong>oy</strong>"</td>
+<td style="text-align:left"><code>neu</code> (new), <code>Häuser</code>, <code>Mäuse</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ä</code></td>
+<td style="text-align:left">Like the English sound "<strong>e</strong>" in "b<strong>e</strong>d" (short) or sometimes "<strong>ai</strong>" in "<strong>ai</strong>r" (long)</td>
+<td style="text-align:left"><code>Männer</code> (men), <code>spät</code> (late)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ö</code></td>
+<td style="text-align:left">Say "<strong>eh</strong>" (like in "b<strong>e</strong>d") but round your lips like you're saying "oo"</td>
+<td style="text-align:left"><code>schön</code> (beautiful), <code>Öl</code> (oil)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ü</code></td>
+<td style="text-align:left">Say "<strong>ee</strong>" (like in "s<strong>ee</strong>") but round your lips like you're saying "oo"</td>
+<td style="text-align:left"><code>Tür</code> (door), <code>fünf</code> (five)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ch</code> (after i,e,ä,ö,ü)</td>
+<td style="text-align:left">Soft hiss, like a very soft 'sh' or the 'h' in "<strong>h</strong>uge"</td>
+<td style="text-align:left"><code>ich</code> (I), <code>Milch</code> (milk)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ch</code> (after a,o,u,au)</td>
+<td style="text-align:left">Rougher sound from back of throat (no English equivalent, like Scottish "lo<strong>ch</strong>")</td>
+<td style="text-align:left"><code>ach</code>, <code>Buch</code> (book)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>sch</code></td>
+<td style="text-align:left">Like the English sound "<strong>sh</strong>" in "<strong>sh</strong>ip"</td>
+<td style="text-align:left"><code>Schule</code> (school)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>sp</code>, <code>st</code> (at start)</td>
+<td style="text-align:left">Like "<strong>shp</strong>", "<strong>sht</strong>"</td>
+<td style="text-align:left"><code>sprechen</code> (speak), <code>Stein</code> (stone)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="-italian-pronunciation-help">🇮🇹 Italian Pronunciation Help </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">🇮🇹 Letter Combination</th>
+<th style="text-align:left">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Pronunciation (Approximate)</th>
+<th style="text-align:left">🇮🇹  Example(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>ce</code>, <code>ci</code></td>
+<td style="text-align:left">Soft "<strong>ch</strong>" sound, like in "<strong>ch</strong>ur<strong>ch</strong>"</td>
+<td style="text-align:left"><code>cena</code> (dinner), <code>ciao</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>che</code>, <code>chi</code></td>
+<td style="text-align:left">Hard "<strong>k</strong>" sound, like in "<strong>k</strong>ey"</td>
+<td style="text-align:left"><code>che</code> (what), <code>chiesa</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ge</code>, <code>gi</code></td>
+<td style="text-align:left">Soft "<strong>j</strong>" sound, like in "<strong>j</strong>am"</td>
+<td style="text-align:left"><code>gelato</code> (ice cream), <code>giorno</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ghe</code>, <code>ghi</code></td>
+<td style="text-align:left">Hard "<strong>g</strong>" sound, like in "<strong>g</strong>o"</td>
+<td style="text-align:left"><code>spaghetti</code>, <code>ghiro</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ca</code>, <code>co</code>, <code>cu</code></td>
+<td style="text-align:left">Hard "<strong>k</strong>" sound, like in "<strong>c</strong>at"</td>
+<td style="text-align:left"><code>casa</code> (house), <code>cosa</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ga</code>, <code>go</code>, <code>gu</code></td>
+<td style="text-align:left">Hard "<strong>g</strong>" sound, like in "<strong>g</strong>o"</td>
+<td style="text-align:left"><code>gatto</code> (cat), <code>lago</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>cia</code>, <code>cio</code>, <code>ciu</code></td>
+<td style="text-align:left">Soft "<strong>ch</strong>" + vowel (like "<strong>cha</strong>", "<strong>cho</strong>", "<strong>choo</strong>")</td>
+<td style="text-align:left"><code>ciambella</code> (doughnut), <code>cioccolato</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gia</code>, <code>gio</code>, <code>giu</code></td>
+<td style="text-align:left">Soft "<strong>j</strong>" + vowel (like "<strong>ja</strong>", "<strong>jo</strong>", "<strong>joo</strong>")</td>
+<td style="text-align:left"><code>giardino</code> (garden), <code>gioco</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gli</code></td>
+<td style="text-align:left">Like "<strong>lli</strong>" in "mi<strong>lli</strong>on" (but smoother)</td>
+<td style="text-align:left"><code>figlio</code> (son), <code>aglio</code> (garlic)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gn</code></td>
+<td style="text-align:left">Like "<strong>ny</strong>" in "ca<strong>ny</strong>on" or Spanish "ñ"</td>
+<td style="text-align:left"><code>gnocchi</code>, <code>bagno</code> (bath)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>sc</code> (before e, i)</td>
+<td style="text-align:left">Like English "<strong>sh</strong>" in "<strong>sh</strong>ip"</td>
+<td style="text-align:left"><code>scena</code> (scene), <code>scimmia</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>sc</code> (before a,o,u,h)</td>
+<td style="text-align:left">Like English "<strong>sk</strong>" in "<strong>sk</strong>ip"</td>
+<td style="text-align:left"><code>scarpa</code> (shoe), <code>scuola</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="-french-pronunciation-help">🇫🇷 French Pronunciation Help </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">🇫🇷 Letter Combination</th>
+<th style="text-align:left">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Pronunciation (Approximate)</th>
+<th style="text-align:left">🇫🇷 Example(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>au</code>, <code>eau</code></td>
+<td style="text-align:left">Like the English sound "<strong>o</strong>" in "g<strong>o</strong>"</td>
+<td style="text-align:left"><code>chaud</code> (hot), <code>beau</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>oi</code></td>
+<td style="text-align:left">Like the English sound "<strong>wa</strong>" in "<strong>wa</strong>sh"</td>
+<td style="text-align:left"><code>moi</code> (me), <code>voilà</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ou</code></td>
+<td style="text-align:left">Like the English sound "<strong>oo</strong>" in "f<strong>oo</strong>d"</td>
+<td style="text-align:left"><code>vous</code> (you), <code>jour</code> (day)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>u</code></td>
+<td style="text-align:left">Say "<strong>ee</strong>" (like in "s<strong>ee</strong>") but round your lips tightly</td>
+<td style="text-align:left"><code>tu</code> (you), <code>rue</code> (street)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>eu</code>, <code>œu</code></td>
+<td style="text-align:left">Say "<strong>eh</strong>" (like in "b<strong>e</strong>d") but round your lips</td>
+<td style="text-align:left"><code>neuf</code> (new), <code>coeur</code> (heart)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>an</code>, <code>en</code>, <code>am</code>, <code>em</code></td>
+<td style="text-align:left">Nasal sound, like "<strong>ah</strong>" but through the nose (don't close 'n'/'m')</td>
+<td style="text-align:left"><code>maman</code> (mom), <code>enfant</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>in</code>, <code>ain</code>, <code>ein</code></td>
+<td style="text-align:left">Nasal sound, like "<strong>a</strong>" in "s<strong>a</strong>ng" but through the nose</td>
+<td style="text-align:left"><code>vin</code> (wine), <code>pain</code> (bread)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>on</code>, <code>om</code></td>
+<td style="text-align:left">Nasal sound, like "<strong>oh</strong>" but through the nose</td>
+<td style="text-align:left"><code>bon</code> (good), <code>nom</code> (name)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ill</code> (after vowel)</td>
+<td style="text-align:left">Often like the English "<strong>y</strong>" in "<strong>y</strong>es"</td>
+<td style="text-align:left"><code>fille</code> (girl), <code>famille</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ch</code></td>
+<td style="text-align:left">Like the English sound "<strong>sh</strong>" in "<strong>sh</strong>ip"</td>
+<td style="text-align:left"><code>chat</code> (cat), <code>chaud</code> (hot)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gn</code></td>
+<td style="text-align:left">Like "<strong>ny</strong>" in "ca<strong>ny</strong>on" or Spanish "ñ"</td>
+<td style="text-align:left"><code>montagne</code> (mountain)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>r</code></td>
+<td style="text-align:left">Sound made in the back of the throat (gargle softly)</td>
+<td style="text-align:left"><code>rouge</code> (red), <code>France</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="-english-pronunciation-help-common-issues-for-learners">🏴󠁧󠁢󠁥󠁮󠁧󠁿 English Pronunciation Help (Common Issues for Learners) </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Letter Combination</th>
+<th style="text-align:left">Pronunciation (Approximate)</th>
+<th style="text-align:left">Example(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>th</code> (unvoiced)</td>
+<td style="text-align:left">Put tongue between teeth and blow air (no voice)</td>
+<td style="text-align:left"><strong>th</strong>ink, ba<strong>th</strong>, <strong>th</strong>ree</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>th</code> (voiced)</td>
+<td style="text-align:left">Put tongue between teeth and make a buzzing sound</td>
+<td style="text-align:left"><strong>th</strong>is, <strong>th</strong>at, mo<strong>th</strong>er</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>sh</code></td>
+<td style="text-align:left">Hush sound, like <code>sch</code> in German or <code>ch</code> in French</td>
+<td style="text-align:left"><strong>sh</strong>ip, fi<strong>sh</strong>, <strong>sh</strong>e</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ch</code></td>
+<td style="text-align:left">Like <code>ce</code>/<code>ci</code> in Italian</td>
+<td style="text-align:left"><strong>ch</strong>air, tea<strong>ch</strong>, <strong>ch</strong>oose</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>r</code> (e.g. Am. Eng.)</td>
+<td style="text-align:left">Curl tongue back slightly, don't roll it</td>
+<td style="text-align:left"><strong>r</strong>ed, ca<strong>r</strong>, <strong>r</strong>un</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ea</code> (long)</td>
+<td style="text-align:left">Like the English sound "<strong>ee</strong>" in "s<strong>ee</strong>"</td>
+<td style="text-align:left"><strong>ea</strong>t, s<strong>ea</strong>, t<strong>ea</strong>m</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ea</code> (short)</td>
+<td style="text-align:left">Like the English sound "<strong>e</strong>" in "b<strong>e</strong>d"</td>
+<td style="text-align:left">h<strong>ea</strong>d, br<strong>ea</strong>d</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>oo</code> (long)</td>
+<td style="text-align:left">Like the French <code>ou</code> or "<strong>oo</strong>" in "m<strong>oo</strong>n"</td>
+<td style="text-align:left">f<strong>oo</strong>d, sch<strong>oo</strong>l, t<strong>oo</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>oo</code> (short)</td>
+<td style="text-align:left">Shorter sound, like in "<strong>oo</strong>" in "g<strong>oo</strong>d"</td>
+<td style="text-align:left">b<strong>oo</strong>k, l<strong>oo</strong>k, f<strong>oo</strong>t</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ow</code> (like 'ow')</td>
+<td style="text-align:left">Like when you hurt yourself: "Ow!"</td>
+<td style="text-align:left">c<strong>ow</strong>, n<strong>ow</strong>, d<strong>ow</strong>n</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>ow</code> (like 'oh')</td>
+<td style="text-align:left">Like the English sound "<strong>o</strong>" in "g<strong>o</strong>"</td>
+<td style="text-align:left">sn<strong>ow</strong>, l<strong>ow</strong>, gr<strong>ow</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Silent letters</td>
+<td style="text-align:left"><code>k</code> in <code>kn</code>, <code>w</code> in <code>wr</code>, <code>b</code> in <code>mb</code></td>
+<td style="text-align:left"><strong>k</strong>nee, <strong>w</strong>rite, com<strong>b</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>Remember, consistency and patience are key. Good luck to your son on his multilingual journey!</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
